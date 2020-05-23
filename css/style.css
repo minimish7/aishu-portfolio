@@ -57,17 +57,24 @@
 
 /* end navigation */
 
-/* Intro Section */
+/* Home Page */
 .site-main {
   font: normal 500 15px/2px var(--font-choice);
 
 }
+/* Intro Section*/
+
+.site-main .site-intro {
+  padding: 2%;
+}
 .site-main .site-intro .highlight {
   background-color: var(--sand-color);
-  padding: 5% 2%;
+  padding: 2% 1%;
+  height: 275px;
 }
 
 .site-main .site-intro .intro-col{
+  padding-top: 20px;
   padding-left: 1.5rem;
 }
 
@@ -81,10 +88,17 @@ padding-bottom: 10px;
   padding-bottom: 10px;
   }
 
-  .site-main .site-intro .intro-col .accent{
-    font-size: 1rem;
-    padding-bottom: 10px;
-    color: var(--accent-color);
-    }
+.site-main .site-intro .intro-col .accent{
+  font-size: 1rem;
+  padding-bottom: 10px;
+  color: var(--accent-color);
+  }
+  .site-main .site-intro .headshot-row .headshot{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 5px solid;
+    border-color: var(--accent-color);
+  }
+
 
 /* End intro section */
