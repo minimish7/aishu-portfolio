@@ -1,0 +1,90 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 10rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--font-choice);
+    text-transform: lowercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .nav-item .dropdown-toggle{ 
+  font: normal 500 15px/2px var(--font-choice);
+  text-transform: lowercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .nav-item .dropdown-item{ 
+  font: normal 500 15px/2px var(--font-choice);
+  text-transform: lowercase;
+  padding: 1rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end navigation */
+
+/* Intro Section */
+.site-main {
+  font: normal 500 15px/2px var(--font-choice);
+
+}
+.site-main .site-intro .highlight {
+  background-color: var(--sand-color);
+  padding: 5% 2%;
+}
+
+.site-main .site-intro .intro-col{
+  padding-left: 1.5rem;
+}
+
+.site-main .site-intro .intro-col h3{
+font-size: 2rem;
+padding-bottom: 10px;
+}
+
+.site-main .site-intro .intro-col h1{
+  font-size: 1rem;
+  padding-bottom: 10px;
+  }
+
+  .site-main .site-intro .intro-col .accent{
+    font-size: 1rem;
+    padding-bottom: 10px;
+    color: var(--accent-color);
+    }
+
+/* End intro section */
